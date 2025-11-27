@@ -4,9 +4,8 @@ int getTotalSteps() {
  int totalsteps=0;
 int dailysteps=0;
 for(int i=1;i<8;i++){
-    cout<<"enter the daily steps for day :"<<endl;
+    cout<<"enter the daily steps for day :"<<(i+1)<<endl;
     cin>>dailysteps;
-cout<<i+1;
 totalsteps+=dailysteps;
 }
 cout<<"average:"<<totalsteps/7<<endl;
